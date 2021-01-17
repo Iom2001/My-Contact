@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/backgroud_edit"
+        android:hint="Kontakt nomi"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black_text"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/backgroud_edit"
+        android:hint="Kontakt raqam"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black_text"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/add_number"
+        android:layout_width="220dp"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="25dp"
+        android:textSize="15sp"
+        android:background="@drawable/button_back"
+        android:text="Kontakt qo'shish"
+        android:textColor="@color/white" />
+</LinearLayout>
